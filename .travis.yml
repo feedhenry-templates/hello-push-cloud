@@ -5,8 +5,7 @@ services:
 node_js:
   - "0.10"
   - "4.4.3"
-before_install: 
-  - git clone https://gist.github.com/psturc/8f386fd74d8b34faf113ff14d7638529
-  - cp 8f386fd74d8b34faf113ff14d7638529/build.sh .
-  - bash build.sh
+before_install:
+  - npm install fh-build -g
+  - fh-build template
 install: npm install

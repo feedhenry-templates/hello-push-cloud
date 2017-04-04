@@ -1,4 +1,5 @@
-# FeedHenry Hello World MBaaS Server [![Build Status](https://travis-ci.org/feedhenry-templates/hello-push-cloud.png)](https://travis-ci.org/feedhenry-templates/hello-push-cloud)
+# FeedHenry Hello World MBaaS Server 
+[![Build Status](https://travis-ci.org/feedhenry-templates/hello-push-cloud.png)](https://travis-ci.org/feedhenry-templates/hello-push-cloud)
 
 This is a blank 'hello world' RHMAP MBaaS, demonstrating the UnifiedPush Server APIs.
 

@@ -6,6 +6,30 @@ This is a blank 'hello world' RHMAP MBaaS, demonstrating the UnifiedPush Server 
 
 # Group Hello World API
 
-# hello [/push]
+## hello [/push]
 
 'Hello world' endpoint, that triggers a push notification requests against RHMAP.
+
+# Build
+```
+npm install
+```
+
+# Tests
+
+All the tests are in the "test/" directory. The cloud app is using moka as the test runner. 
+
+To run:
+* unit the tests:
+```
+npm run unit
+```
+* acceptance tests
+```    
+npm run serve
+npm run accept
+```
+* coverage report for unit tests:
+```
+npm run coverage-unit
+```

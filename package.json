@@ -29,9 +29,13 @@
   },
   "main": "application.js",
   "scripts": {
-    "test": "grunt unit",
-    "debug": "grunt serve",
-    "start": "node application.js"
+    "start": "node application.js",
+    "serve": "grunt serve",
+    "unit": "grunt unit",
+    "accept": "grunt accept",
+    "test": "npm run unit",
+    "coverage-unit": "grunt coverage-unit",
+    "coverage-accept": "grunt coverage-accept"
   },
   "license": "Apache-2.0"
 }

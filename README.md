@@ -17,7 +17,7 @@ npm install
 
 # Tests
 
-All the tests are in the "test/" directory. The cloud app is using moka as the test runner. 
+All the tests are in the "test/" directory. The cloud app is using mocha as the test runner. 
 
 To run:
 * unit the tests:
@@ -29,7 +29,8 @@ npm run unit
 npm run serve
 npm run accept
 ```
-* coverage report for unit tests:
+* coverage report for unit/acceptance tests:
 ```
 npm run coverage-unit
+npm run coverage-acceptance
 ```

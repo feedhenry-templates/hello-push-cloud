@@ -34,6 +34,7 @@
     "unit": "grunt unit",
     "accept": "grunt accept",
     "test": "npm run unit",
+    "coverage": "grunt coverage",
     "coverage-unit": "grunt coverage-unit",
     "coverage-accept": "grunt coverage-accept"
   },

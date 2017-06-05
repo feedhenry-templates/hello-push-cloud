@@ -35,12 +35,6 @@ Take a look in all options in our [documentation](http://docs.feedhenry.com/v3/a
 ```
 
 ## Build
-
-```shell
-npm install
-```
-
-## Build
 ```
 npm install
 ```
